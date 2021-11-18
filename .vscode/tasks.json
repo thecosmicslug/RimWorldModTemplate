@@ -3,12 +3,12 @@
     "tasks": [
         {
             "label": "build dll",
-            "type": "shell",
+            "type": "process",
             "group": {
                 "kind": "build",
                 "isDefault": true
             },
-            "command": ".vscode/build.bat",
+            "command": "${workspaceFolder}/.vscode/build.sh",
         },
     ]
 }
